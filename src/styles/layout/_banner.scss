@@ -1,0 +1,46 @@
+.sl-l-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    .sl-r-banner__brand.sl-l-grid__column{
+        margin: 1rem 0;
+        padding: 0;
+        margin: 1rem 0;
+        padding: 0;
+        float:left;
+        --span:3/12;
+    
+        img {
+            height: 6rem;
+            margin:0;
+        }
+    }
+}
+
+.sl-r-banner__navigation{
+    display: block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: 600;
+    float:left;
+    --span:9/12;
+    text-transform:uppercase;
+
+    ul{
+        text-align:right;
+        white-space:nowrap;
+        padding:1.5em;
+
+        li{
+            display:inline-block;
+            margin-right:0;
+            margin-left:16px;
+            margin-bottom:0;
+            width:auto;
+        }
+    }
+}
+

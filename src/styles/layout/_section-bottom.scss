@@ -1,0 +1,28 @@
+.sl-background--white{
+    background: #fff;
+
+    ul.sl-l-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        li{
+            flex: 0 0 33.33333%;
+            padding-right: 2rem;
+            padding-left: 2rem;
+
+            h2 {
+                font-size: 2rem;
+                font-weight:normal;
+            }
+
+            a{
+                text-decoration: none;
+                color: #036;
+                border-bottom: 1px solid rgba(218,219,223,0.5);
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-bottom-color: rgba(218, 219, 223, 0.5);
+            }
+        }
+    }
+}

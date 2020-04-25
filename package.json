@@ -1,0 +1,30 @@
+{
+  "name": "sass_official_website",
+  "version": "1.0.0",
+  "description": "Sass Official Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp"
+  ],
+  "author": "aitintin",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "bourbon": "^7.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "normalize-scss": "^7.0.1",
+    "susy": "^3.0.5"
+  }
+}

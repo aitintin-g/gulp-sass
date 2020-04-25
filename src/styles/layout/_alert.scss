@@ -1,0 +1,40 @@
+.sl-c-alert{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background: #bf4080;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+
+    &.sl-c-alert--info {
+        background: #036;
+    }
+
+    p{
+        max-width: none;
+    }
+
+    a {
+        border-bottom-color: rgba(255,255,255,0.5);
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .sl-c-list-horizontal-wrapper{
+        ul{
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin:0 -0.5em;
+
+            li{
+                padding-right: .5rem;
+                padding-left: .5rem;
+                display: list-item;
+            }
+        }
+    }
+}
+
+

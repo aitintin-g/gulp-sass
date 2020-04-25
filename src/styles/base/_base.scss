@@ -1,0 +1,54 @@
+/*设置盒模型的计算方式*/
+*{
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+}
+
+/*! susy3的配置*/
+$susy: (
+  'columns': susy-repeat(12),
+  'gutters': 0.5em,
+  'spread': 'wide',
+  'container-spread': 'wide',
+);
+
+/*! setup susy3*/
+* {
+    --span: initial; /* avoid inheritance */
+    --percentage: calc(var(--span) * 100%);
+    width: var(--percentage, initial);
+}
+
+/*设置全局样式*/
+html {
+    background: #f8f9fa url() ;
+    tab-size: 4;
+    word-break: break-word;
+    cursor: default;
+    text-size-adjust: 100%;
+}
+body {
+    line-height: 1.5;
+    font-family: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-rendering: optimizeLegibility;
+    color: #6b717f;
+    background: transparent;
+}
+::selection {
+    background-color: #dadbdf;
+    color: #000;
+    text-shadow: none;
+}
+p{
+    margin:0;
+}
+
+/*页面容器*/
+.sl-l-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 120rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+

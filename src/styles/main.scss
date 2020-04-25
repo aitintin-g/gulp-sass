@@ -1,0 +1,30 @@
+/*! susy & bourbon & normalize*/ 
+@import
+    'susy',
+    'bourbon',
+    'normalize';    /*! 安装的是normalize-scss，这里导入normalize*/
+
+    @include normalize();
+
+/*! base*/
+@import
+    './base/base';
+
+/*! abstract*/
+@import
+    './abstracts/variables',
+    './abstracts/function';
+
+/*! lauout*/
+@import
+    './layout/alert',
+    './layout/pop-stripe',
+    './layout/banner',
+    './layout/page-header',
+    './layout/section-bottom',
+    './layout/contentinfo';
+
+/*! pages*/
+@import
+    './pages/body';
+

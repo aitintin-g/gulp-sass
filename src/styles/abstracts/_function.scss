@@ -1,0 +1,15 @@
+/*生成提示信息下的渐变条*/
+@function linearGradient($direction,$colors){
+    $length:length($list:$colors);
+    $percentage:percentage($number:1/$length);
+    $gradient:();
+
+    @for $i from 1 through $length {
+        $current-color:nth($list:$colors,$n:$i);
+        $temp:$current-color($i-1)*$percentage,$current-color $i * $percentage;
+
+        $gradient:join($list1:$gradient,$list2:comma);
+    }
+
+    @return linear-gradient($direction,$gradient);
+}

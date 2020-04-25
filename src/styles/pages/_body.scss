@@ -1,0 +1,30 @@
+.sl-l-large-grid--center {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    .sl-l-grid__column{
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    
+        .sl-c-introduction{
+            font-size: 1.75rem;
+            color: #699;
+            font-weight: 300;
+        }
+    }
+
+    p.sl-l-grid__column{
+        margin: 1rem 0;
+
+        img{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
